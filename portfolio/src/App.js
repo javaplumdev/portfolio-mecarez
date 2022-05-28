@@ -7,7 +7,10 @@ import Navbar from './components/Navbar';
 import Menu from './components/Menu';
 import LandingPage from './components/LandingPage';
 // Context
-import { ContextFunction } from './Context/ContextProvider';
+import { ContextFunction, ContextVar } from './Context/ContextProvider';
+import { useContext } from 'react';
+// Framer motion
+import { motion } from 'framer-motion';
 
 function App() {
 	return (

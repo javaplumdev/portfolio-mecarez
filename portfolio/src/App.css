@@ -3,9 +3,15 @@
 	margin: 0;
 	box-sizing: border-box;
 	overflow: hidden;
+	cursor: none;
+}
+
+.navbar {
+	height: 10vh;
 }
 
 .menu {
+	background-color: #000;
 	height: 100vh;
 	align-items: center;
 	display: flex;
@@ -49,6 +55,7 @@
 
 .landingPage {
 	position: relative;
+	height: 90vh;
 }
 
 .scroll-down-container {
@@ -85,4 +92,28 @@
 	background-color: #fff;
 	height: 10px;
 	position: relative;
+}
+
+.cursor {
+	background-color: #111;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 5;
+}
+
+.cursorWhite {
+	background-color: #fff;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 5;
 }
