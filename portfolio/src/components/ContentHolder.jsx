@@ -3,9 +3,9 @@ import React, { useContext } from 'react';
 import LandingPage from './LandingPage';
 import Navbar from './Navbar';
 import LoadingScreen from './LoadingScreen';
+import Projects from './Projects';
 // Context
 import { ContextVar } from '../Context/ContextProvider';
-import MotionCircles from './MotionCircles';
 // Framer motion
 import { motion } from 'framer-motion';
 
@@ -31,14 +31,17 @@ function ContentHolder() {
 			{loading ? (
 				<LoadingScreen />
 			) : (
-				<motion.div
-					variants={landingPageVariant}
-					initial="initial"
-					animate="animate"
-				>
-					<Navbar />
-					<LandingPage />
-				</motion.div>
+				<>
+					<motion.div
+						variants={landingPageVariant}
+						initial="initial"
+						animate="animate"
+					>
+						<Navbar />
+						<LandingPage />
+						<Projects />
+					</motion.div>
+				</>
 			)}
 		</>
 	);

@@ -53,11 +53,6 @@
 		1px 1px 0 #000;
 }
 
-.landingPage {
-	position: relative;
-	height: 90vh;
-}
-
 .scroll-down-container {
 	position: absolute;
 	width: 100%;
@@ -119,5 +114,9 @@
 }
 
 .loadingScreen {
+	height: 100vh;
+}
+
+.projects {
 	height: 100vh;
 }
