@@ -24,6 +24,7 @@ function LandingPage() {
 					>
 						Passionate to build a user-<br></br>friendly interfaces.
 					</h1>
+
 					<p className="lead">
 						Hi. <b>I’m Charlito Mecarez Jr.</b> Aspiring frontend developer.
 					</p>

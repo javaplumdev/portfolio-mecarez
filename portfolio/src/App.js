@@ -3,9 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //React Router
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Components
-import Navbar from './components/Navbar';
 import Menu from './components/Menu';
-import LandingPage from './components/LandingPage';
+import ContentHolder from './components/ContentHolder';
 // Context
 import { ContextFunction, ContextVar } from './Context/ContextProvider';
 import { useContext } from 'react';
@@ -22,8 +21,7 @@ function App() {
 							path="/"
 							element={
 								<>
-									<Navbar />
-									<LandingPage />
+									<ContentHolder />
 								</>
 							}
 						/>

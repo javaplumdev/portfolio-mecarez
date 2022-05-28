@@ -117,3 +117,7 @@
 	pointer-events: none;
 	z-index: 5;
 }
+
+.loadingScreen {
+	height: 100vh;
+}
